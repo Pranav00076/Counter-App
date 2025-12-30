@@ -2,6 +2,7 @@
 Project using Basic DOM Manipulation.
 
 It's an app for counting.
+Use the link: https://pranav00076.github.io/Counter-App/
 
 You can click on " + " for Increment.
 
