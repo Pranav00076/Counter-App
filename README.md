@@ -10,4 +10,4 @@ You can click on " - " for decrement.
 
 You can click on " RESET " button for resetting value to 0.
 
-
+Click on Theme to Toggle the Theme.
