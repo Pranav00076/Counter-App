@@ -13,3 +13,16 @@ inc.addEventListener("click",()=>{
 btn.addEventListener("click",()=>{
     num.innerHTML = 0
 })
+
+const togbut = document.getElementById("theme")
+const bodyt = document.body
+
+togbut.addEventListener("click",()=>{
+    if (bodyt.classList.contains("light")) {
+        bodyt.classList.remove("light");
+        bodyt.classList.add("dark");
+    } else {
+        bodyt.classList.remove("dark");
+        bodyt.classList.add("light");;
+    }
+})

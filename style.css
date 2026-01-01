@@ -26,9 +26,20 @@ body{
     margin-top: 50px;
     font-size: 200px;
 }
-#reset{
+button{
     width: 100px;
     height: 50px;
     font-size: 25px;
     font-weight: bold;
+}
+body.dark{
+    background-color: white;
+    color: black;
+}
+body.dark #reduce, body.dark #incre{
+    border: 1px solid black;
+}
+body.dark button{
+    background-color: black;
+    color: white;
 }
